@@ -1,11 +1,11 @@
 #!/bin/bash
 ##adds user candidate 
 
-sudo useradd -m -s /bin/bash candidate
-echo "candidate:candidate123" | sudo chpasswd
+#sudo useradd -m -s /bin/bash candidate
+#echo "candidate:candidate123" | sudo chpasswd
 
 ##install utils xz 7z bzip2  for challenge2
-sudo apt install p7zip xz-utils bzip2 gzip zip
+#sudo apt install p7zip xz-utils bzip2 gzip zip
 
 
 # Create a large number of files with tricky names and add garbage text
@@ -50,9 +50,6 @@ mv /challenge/needle/flag1.txt /challenge/haystack/dir1/dir2/dir3/dir4/dir5/dir6
 #echo "Challenge 2: Compress the large ASCII text file to free up space."
 #echo "Solution: The large file has been compressed to 'large_file.txt.gz'."
 
-#!/bin/bash
-
-
 ##CHALLENGE 3
 
 
@@ -69,11 +66,7 @@ echo "Files created successfully."
 
 
 
-##CHALLENGE 4 
-
-
-#!/bin/bash
-
+##CHALLENGE 4
 # Create the directory if it doesn't exist
 mkdir -p /challenge/howmany/
 
