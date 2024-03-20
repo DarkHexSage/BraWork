@@ -1,24 +1,25 @@
 <?php
 
+function verifyDeploymentRunningNginx($deploymentName, $namespace, $expectedImage) {
+    // Define the kubectl command to describe the deployment
+    $describeCommand = "sudo microk8s.kubectl -n $namespace describe deployment $deploymentName";
 
+    // Execute the command and capture the output
+    $describeOutput = shell_exec($describeCommand);
 
-// Challenge 2 Verification Function
-function verifyChallenge2() {
-    // Define the deployment name, namespace, and expected image for Challenge 2
-    $deploymentName = 'zenployment';
-    $namespace = 'zenspace';
-    $expectedImage = 'nginx:latest';
-
-    // Execute the kubectl command to get the image of the deployment
-    $command = "sudo microk8s.kubectl get deployment -n $namespace $deploymentName -o=jsonpath='{.spec.template.spec.containers[0].image}'";
-    $image = shell_exec($command);
-
-    // Check if the retrieved image matches the expected image
-    if (trim($image) === $expectedImage) {
-        return 'success';
+    // Check if the output contains the expected image
+    if (strpos($describeOutput, $expectedImage) !== false) {
+        echo 'success';
     } else {
-        return 'failure';
+        echo 'failure';
     }
 }
-?>
 
+// Specify deployment details
+$deploymentName = 'zenployment';
+$namespace = 'zenspace';
+$expectedImage = 'nginx:latest';
+
+// Call the function to verify deployment
+verifyDeploymentRunningNginx($deploymentName, $namespace, $expectedImage);
+?>
