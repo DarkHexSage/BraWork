@@ -1,20 +1,22 @@
-
-
 <?php
 
-function verifyChallenge3() {
+function verifyRBACExercise() {
+    // Define the kubectl commands to check Role and RoleBinding
+    $roleCommand = 'sudo microk8s.kubectl -n rbac-example get role pod-reader';
+    $roleBindingCommand = 'sudo microk8s.kubectl -n rbac-example get rolebinding read-pods';
 
-    // Execute kubectl command to describe the user role
-    $command = "kubectl describe role -n zenspace userrole";
-    $output = shell_exec($command);
+    // Execute the commands and capture the output
+    $roleOutput = shell_exec($roleCommand);
+    $roleBindingOutput = shell_exec($roleBindingCommand);
 
-    // Check if the output contains the expected role definition
-    if (strpos($output, 'Resource') !== false && strpos($output, 'pods') !== false && strpos($output, 'Verbs') !== false && strpos($output, 'get') !== false) {
-        return 'success';
+    // Check if both Role and RoleBinding exist
+    if (!empty($roleOutput) && !empty($roleBindingOutput)) {
+        echo 'success';
     } else {
-        return 'failure';
+        echo 'failure';
     }
 }
 
+// Call the function to verify RBAC exercise completion
+verifyRBACExercise();
 
-?>
