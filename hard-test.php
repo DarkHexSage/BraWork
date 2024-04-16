@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -114,62 +115,67 @@
     <div class="container">
         <!-- Shell in a Box -->
         <div id="shell-container">
-            <iframe src="http://131.186.0.96:4603"></iframe>
+            <iframe src="http://131.186.0.96:4701"></iframe>
             <!-- Replace "http://localhost:4200" with the URL of your Shell in a Box server -->
         </div>
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>Linux Exercises Hard</h1>
+            <h1>K8s Exercises Hard</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
-                <h3>Challenge 1:</h3>
+                           <!-- Challenge 1 -->
+            <div class="challenge-container">
+                <h3>Exercise 1: Persistent Volume Claim (PVC)</h3>
                 <p><strong>Scenario:</strong><br>
-                    Our weather application, a critical tool for daily forecasting, abruptly ceased functioning following a system reboot. As users rely heavily on this application for weather updates, restoring its functionality is imperative.</p>
+                    Your company needs you to set up Persistent storage for one of it's pods</p>
                 <p><strong>Objective:</strong><br>
-                    Investigate and rectify the issue with the weather application.</p>
-                <p><strong>Context:</strong><br>
-                    The weather application binary file is located at "<strong>/opt/weatherapp/weather</strong>".</p>
+                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage.
+Deploy a pod named "web-app" using an image of your choice and mount the PVC to the path "/app/data" within the container.
+Verify that the pod is successfully running and the PVC is bound..</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
-            <div class="challenge">
-                <h3>Challenge 2:</h3>
-                <p><strong>Task: Network Traffic Analysis for Usernames and Passwords</strong></p>
+            <!-- Challenge 2 -->
+            <div class="challenge-container">
+                <h3>Exercise 2: Service Account</h3>
+                <p><strong>Scenario:</strong><br>
+                    Zencomp needs you to create a Service Account and bind it to a pod..</p>
                 <p><strong>Objective:</strong><br>
-                    Our organization is proactively enhancing network security by analyzing HTTP traffic within our network environment. The primary goal of this initiative is to identify instances of sensitive information, particularly usernames and passwords, being transmitted in clear text over HTTP protocols.</p>
-                <p><strong>Instructions:</strong><br>
-                    Please analyze the provided pcap file located at "/challenge/networkhhtp.pcap". Your task is to extract all usernames and passwords found within the HTTP traffic. Once identified, please store each username-password pair in separate text files using the following format:</p>
-                <p>Username:Password</p>
-                <p>For instance, if the username is "john" and the password is "password", they should be stored in a file named /challenge/creds1.txt. Similarly, if the username is "goblin" and the password is "solaire12", they should be stored in a file named /challenge/creds2.txt, and so forth.</p>
+		    Create a Service Account named "app-sa" within the default namespace.
+Deploy a pod named "app-pod" using an image of your choice and bind the "app-sa" Service Account to it.
+Verify that the pod is running and uses the specified Service Account..</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <div class="challenge">
-                <h3>Challenge 3:</h3>
+            <!-- Challenge 3 -->
+            <div class="challenge-container">
+                <h3>Exercise 3: Resource Limitation</h3>
                 <p><strong>Scenario:</strong><br>
-                    The user account named darkcandidate holds specific permissions and responsibilities within our system infrastructure. As part of routine operations, the user darkcandidate is required to perform certain tasks.</p>
+                    Enforce CPU and memory resource limitations for a deployment..</p>
                 <p><strong>Objective:</strong><br>
-                    Log in as darkcandidate and create a file named "/challenge/darkuser.txt" with the content "user is working".</p>
-                <p><strong>Context:</strong><br>
-                    The file creation verifies the functionality of user accounts and their ability to perform designated tasks securely.</p>
+                    Deploy an application named "resource-app" using an image of your choice.
+Configure resource limits of 500m CPU and 512Mi memory for the application.
+Scale the deployment to 3 replicas.
+Verify that the resources are properly limited for each replica..</p>
                 <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
             </div>
 
-            <div class="challenge">
-                <h3>Challenge 4:</h3>
+            <!-- Challenge 4 -->
+            <div class="challenge-container">
+                <h3>Exercise 4: Services and Ingress</h3>
                 <p><strong>Scenario:</strong><br>
-                    The text file named /challenge/corrupt_tale.txt file in our system contains important data critical for our operations. Unfortunately, the file has been compromised by a virus, resulting in the appearance of the word "unwanted" within its contents. This unexpected alteration poses a risk to the integrity of the information stored in the file.</p>
+                    Expose a web application via a Kubernetes Service and Ingress.</p>
                 <p><strong>Objective:</strong><br>
-                    Remove the word "unwanted" from the text file, restoring its original content and ensuring the accuracy and reliability of the information once restored save it at /challenge/fixedtale,txt.</p>
-                <p><strong>Context:</strong><br>
-                    The security and integrity of our data are paramount, and swift action is necessary to mitigate any potential risks
-
- posed by malicious entities.</p>
+                    Deploy a web application named "web-app" using an image of your choice.
+Create a ClusterIP Service named "web-service" to expose the web application internally.
+Create an Ingress resource named "web-ingress" to route traffic from the "/web" path to the "web-service".
+Configure the host for the Ingress to a domain name or IP address.
+Verify that you can access the web application through the configured Ingress route.</p>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
             </div>
 
-            <br><strong> Wishing you the best of luck on your Linux adventure!</strong>
+            <br><strong> Wishing you the best of luck on your K8s adventure!</strong>
         </div>
     </div>
 
@@ -255,7 +261,7 @@
                     }
                 }
             };
-            xhr.open("GET", "/verify-challenge-hard" + challengeNumber + ".php", true);
+            xhr.open("GET", "/verify-challengek8s-hard" + challengeNumber + ".php", true);
             xhr.send();
         }
 
@@ -263,3 +269,4 @@
     </script>
 </body>
 </html>
+
