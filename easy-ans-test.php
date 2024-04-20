@@ -128,7 +128,7 @@
             <div class="challenge-container">
                 <h3>Challenge 1: Creating a File</h3>
                 <p><strong>Scenario:</strong><br>
-                    You need to create a file named hello.txt with the content "Hello, Ansible!" in the /tmp directory.</p>
+                    You need to create a file named hello.txt with the content "Hello, Ansible!" in the /challenge directory.</p>
                 <p><strong>Objective:</strong><br>
                     Utilize Ansible to create the file with the specified content.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
@@ -138,7 +138,7 @@
             <div class="challenge-container">
                 <h3>Challenge 2: Install a Package</h3>
                 <p><strong>Scenario:</strong><br>
-                    You want to install the nginx package on your Debian-based system.</p>
+                    You want to install the nginx package on your system.</p>
                 <p><strong>Objective:</strong><br>
 		    Use Ansible to install the nginx package.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
@@ -158,7 +158,7 @@
             <div class="challenge-container">
                 <h3>Challenge 4: Directory creation.</h3>
                 <p><strong>Scenario:</strong><br>
-                    You need to create a directory named ansible_dir in the /tmp directory.</p>
+                    You need to create a directory named ansible_dir in the /challenge/ directory.</p>
                 <p><strong>Objective:</strong><br>
                     Create the ansible_dir directory using Ansible.</p>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
