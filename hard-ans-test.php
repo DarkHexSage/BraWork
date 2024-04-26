@@ -138,7 +138,7 @@
             <div class="challenge-container">
                 <h3>Challenge 2: Find File and Calculate MD5 Checksum</h3>
                 <p><strong>Scenario:</strong><br>
-		  You want to find a file named example.txt on the target machine, calculate its MD5 checksum, and store the checksum in /challenge/flag.txt..</p>
+		  You want to find a file named example.txt on the target machine, redirr its contents to /challenge/flag.txt </p>
                 <p><strong>Objective:</strong><br>
 		    Find the example.txt file, calculate its MD5 checksum, and store the checksum in /challenge/flag.txt using Ansible..</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
