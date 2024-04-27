@@ -148,7 +148,7 @@
             <div class="challenge-container">
                 <h3>Challenge 3: Modify a file:</h3>
                 <p><strong>Scenario:</strong><br>
-	You have a file named /challenge/config.txt on /tmp/.</p>
+	You have a file named /challenge/config.txt</p>
                 <p><strong>Objective:</strong><br>
                     Append the line Setting=Value to the file config.txt using Ansible.</p>
                 <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
