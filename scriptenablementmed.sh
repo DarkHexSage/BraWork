@@ -32,7 +32,13 @@ done
 
 
 ##challenge 4
-#!/bin/bash
+
+
+# Directory where files will be created
+directory="/challenge/"
+
+# Create directory if it doesn't exist
+mkdir -p "$directory"
 
 # Loop to create 30 files
 for ((i=1; i<=30; i++))
@@ -45,8 +51,9 @@ do
     fi
 
     # Create the file with the determined content
-    echo "$content" > "file$i.txt"
+    echo "$content" > "${directory}file$i.txt"
 done
+
 
 wget -O /challenge/random.txt https://raw.githubusercontent.com/DarkHexSage/BraWork/main/random.txt
 chmod 4777 /challenge/
