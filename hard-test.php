@@ -161,7 +161,7 @@
                 <p><strong>Scenario:</strong><br>
                     The text file named /challenge/corrupt_tale.txt file in our system contains important data critical for our operations. Unfortunately, the file has been compromised by a virus, resulting in the appearance of the word "unwanted" within its contents. This unexpected alteration poses a risk to the integrity of the information stored in the file.</p>
                 <p><strong>Objective:</strong><br>
-                    Remove the word "unwanted" from the text file, restoring its original content and ensuring the accuracy and reliability of the information once restored save it at /challenge/fixedtale,txt.</p>
+                    Remove the word "unwanted" from the text file, restoring its original content and ensuring the accuracy and reliability of the information once restored save it at /challenge/fixtale.txt</p>
                 <p><strong>Context:</strong><br>
                     The security and integrity of our data are paramount, and swift action is necessary to mitigate any potential risks
 
