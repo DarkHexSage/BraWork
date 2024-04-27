@@ -32,6 +32,21 @@ done
 
 
 ##challenge 4
+#!/bin/bash
+
+# Loop to create 30 files
+for ((i=1; i<=30; i++))
+do
+    # Determine content based on even or odd index
+    if ((i % 2 == 0)); then
+        content="Praise the moon"
+    else
+        content="Praise the sun"
+    fi
+
+    # Create the file with the determined content
+    echo "$content" > "file$i.txt"
+done
 
 wget -O /challenge/random.txt https://raw.githubusercontent.com/DarkHexSage/BraWork/main/random.txt
 chmod 4777 /challenge/
