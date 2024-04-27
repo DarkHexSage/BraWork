@@ -35,7 +35,7 @@ done
 
 
 # Directory where files will be created
-directory="/challenge/"
+directory="/challenge/four/"
 
 # Create directory if it doesn't exist
 mkdir -p "$directory"
