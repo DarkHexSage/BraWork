@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: hello-world
+        image: redis
