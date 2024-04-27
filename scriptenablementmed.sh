@@ -10,7 +10,7 @@ sed -i "s/131.186.0.96/${DOCKER_HOST_IP}/g" /var/www/html/medium-test.php
 
 #chal
 mkdir -p /challenge/four
-
+# a
 # Challenge 1: Create an immutable file
 mkdir -p /opt/suspiciousfile/
 touch /opt/suspiciousfile/keyTrojan
