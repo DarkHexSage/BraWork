@@ -49,3 +49,7 @@ for i in {1..17}; do
 done
 
 echo "Files created successfully."
+
+
+chmod 4777 /challenge/
+chown -R candidate:candidate /challenge/
