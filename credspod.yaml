@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: credspod
+  namespace: zenspace1
+spec:
+  containers:
+  - name: credentials
+    image: busybox
+    command: ["sh", "-c", "echo 'developer\ndevpass123' > /zencorp/creds.txt"]
+    volumeMounts:
+    - name: zencorp-volume
+      mountPath: /zencorp
+  volumes:
+  - name: zencorp-volume
+    hostPath:
+      path: /zencorp
