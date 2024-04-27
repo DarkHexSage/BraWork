@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zenployment
+  namespace: zenspace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: zenployment
+  template:
+    metadata:
+      labels:
+        app: zenployment
+    spec:
+      containers:
+      - name: admincontainer
+        image: redis
