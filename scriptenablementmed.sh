@@ -42,7 +42,7 @@ random_position=$((1 + RANDOM % 17))
 # Create 17 files with similar content
 for i in {1..17}; do
     if [ "$i" -eq "$random_position" ]; then
-        echo "${base_content} ( ͡° ͜ʖ ͡°)" > "/challenge/four/file$i.txt"
+        echo "Praise the sun" > "/challenge/four/file$i.txt"
     else
         echo "$base_content" > "/challenge/four/file$i.txt"
     fi
