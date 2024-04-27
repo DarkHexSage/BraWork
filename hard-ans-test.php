@@ -158,7 +158,7 @@
             <div class="challenge-container">
 		<h3>Challenge 4:  Count Words in a Text File </h3>
                 <p><strong>Scenario:</strong><br>
-                You have a large text file  /challenge/bigwords.txt containing important information, you need to know the number of words it contains..</p>
+                You have a text file  /challenge/words.txt containing important information, you need to know the number of words it contains..</p>
                 <p><strong>Objective:</strong><br>
                   Using Ansible counts the number of words in it, and store  the count (number) in a file within /challenge/num.txtk</p>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
