@@ -8,8 +8,8 @@ $md5sum7z = trim(shell_exec("md5sum $file7zPath | cut -d' ' -f1"));
 $md5sumXz = trim(shell_exec("md5sum $fileXzPath | cut -d' ' -f1"));
 
 // Define the expected MD5 checksums
-$expectedMd5sum7z = 'c5b6a62c48a420665b0fd9cd2e3d1242';
-$expectedMd5sumXz = 'd0261f2f32eafb00b53e4692f573a011';
+$expectedMd5sum7z = '3c7188914363d67f331e157cd13f2b5a';
+$expectedMd5sumXz = '2d35a43c3a666af5bffb0b6942389833';
 
 // Check if at least one of the files has a valid MD5 checksum
 if (
