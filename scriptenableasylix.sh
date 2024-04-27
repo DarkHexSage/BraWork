@@ -41,22 +41,10 @@ mkdir -p /challenge/haystack/dir1/dir2/dir3/dir4/dir5/dir6/dir7/dir8/dir9/dir10
 mv /challenge/needle/flag1.txt /challenge/haystack/dir1/dir2/dir3/dir4/dir5/dir6/dir7/dir8/dir9/dir10
 
 # Create a large ASCII text file using yes and head
-#yes "This is a large ASCII text file. It contains a lot of text to compress. It can be easily compressed to free up space." | head -n 10000000 > /challenge/bigfile.txt
+yes "This is a large ASCII text file. It contains a lot of text to compress. It can be easily compressed to free up space." | head -n 10000000 > /challenge/bigfile.txt
 
 # Move the large uncompressed file to a random subdirectory
-#mv /challenge/bigfile.txt /challenge/haystack/dir$(shuf -i 1-100 -n 1)/large_file.txt
-
-
-
-# Compress the large file to free up space
-#gzip /challenge/haystack/dir$(shuf -i 1-100 -n 1)/large_file.txt
-
-# Print challenge instructions
-#echo "Welcome to the Linux challenges!"
-#echo "Challenge 1: Find the file named 'flag1.txt' hidden within a lot of subdirectories and files."
-#echo "Solution: Run 'find /challenge -name flag1.txt' to find the file."
-#echo "Challenge 2: Compress the large ASCII text file to free up space."
-#echo "Solution: The large file has been compressed to 'large_file.txt.gz'."
+mv /challenge/bigfile.txt /challenge/haystack/dir$(shuf -i 1-100 -n 1)/bigfile.txt
 
 ##CHALLENGE 3
 
