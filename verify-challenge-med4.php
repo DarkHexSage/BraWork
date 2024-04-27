@@ -3,7 +3,7 @@
 function verifyFileMD5() {
     // Define the file path and expected MD5 checksum
     $filePath = '/challenge/filediff.txt';
-    $expectedMD5 = 'd5809377973bb71fb90ad5de3fdb4824';
+    $expectedMD5 = 'ae164b5f7ccce3493b5c1914ec05f6e1';
 
     // Calculate the MD5 checksum of the file
     $fileMD5 = md5_file($filePath);
