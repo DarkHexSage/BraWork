@@ -138,9 +138,9 @@
             <div class="challenge-container">
                 <h3>Challenge 2: Copy a File</h3>
                 <p><strong>Scenario:</strong><br>
-		    You have a file named sample.txt on your local machine that you need to copy to the /tmp directory on the target machine.</p>
+		    You have a file named sample.txt on your local machine that you need to copy to the /challenge directory.</p>
                 <p><strong>Objective:</strong><br>
-		    Use Ansible to copy the sample.txt file to the target machine.</p>
+		    Use Ansible to copy the sample.txt file to /challenge dir.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
@@ -148,7 +148,7 @@
             <div class="challenge-container">
                 <h3>Challenge 3: Modify a file:</h3>
                 <p><strong>Scenario:</strong><br>
-	You have a file named config.txt on the target machine that you need to modify.</p>
+	You have a file named /challenge/config.txt on /tmp/.</p>
                 <p><strong>Objective:</strong><br>
                     Append the line Setting=Value to the file config.txt using Ansible.</p>
                 <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
