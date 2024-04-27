@@ -141,7 +141,7 @@
                     ZenComp is keen on maintaining organized records of its deployed resources for effective management and tracking.</p>
                 <p><strong>Objective:</strong><br>
 		    Generate an inventory of each pod name deployed within the zenspace2 namespace. 
-Redirect the pod names to the file /challenge/pods.txt for streamlined management.</p>
+Redirect the pod names to the file /challenge/pods.txt on ascending order, this for streamlined management.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
