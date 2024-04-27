@@ -150,7 +150,7 @@
                 <p><strong>Scenario:</strong><br>
 	You have a file named config.txt on the target machine that you need to modify.</p>
                 <p><strong>Objective:</strong><br>
-                    Modify the config.txt file using Ansible.</p>
+                    Append the line Setting=Value to the file config.txt using Ansible.</p>
                 <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
             </div>
 
