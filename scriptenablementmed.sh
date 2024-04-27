@@ -9,7 +9,7 @@ DOCKER_HOST_IP=$(hostname -I | cut -d ' ' -f 1)
 sed -i "s/131.186.0.96/${DOCKER_HOST_IP}/g" /var/www/html/medium-test.php
 
 #chal
-mkdir -p /challenge/
+mkdir -p /challenge/four
 
 # Challenge 1: Create an immutable file
 mkdir -p /opt/suspiciousfile/
