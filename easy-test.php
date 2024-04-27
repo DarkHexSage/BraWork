@@ -107,7 +107,7 @@
         <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button><br><br>
 
         <li><strong>Challenge 2:</strong> Your objective is to locate a big file within the subdirs on <strong>/challenge</strong>. Once found compress it using just <strong>one</strong> compression algorithm. <br>
-            The output file (compressed file) <strong>must be smaller than 200K</strong>, once compressed copy the file to folder  <strong> /challenge/</strong>.</li>
+            The output file (compressed file) <strong>must be smaller than 200K</strong>, once compressed copy the file to folder  <strong> /challenge/bigfile.txt.xx being xx the compression algorithm extension</strong>.</li>
         <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button><br><br>
 
         <li><strong>Challenge 3:</strong> Concatenate the contents of all .txt files within the <strong>/challenge/conc/</strong> directory into a single file named <strong>concatenated_files.txt</strong> save it at <strong>/challenge/</strong>.</li>
