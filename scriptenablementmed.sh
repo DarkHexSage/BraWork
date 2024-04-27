@@ -32,24 +32,7 @@ done
 
 
 ##challenge 4
-#!/bin/bash
-# Define the base content
-base_content="This is some sample text. It is similar in all files."
 
-# Generate a random number between 1 and 17
-random_position=$((1 + RANDOM % 17))
-
-# Create 17 files with similar content
-for i in {1..17}; do
-    if [ "$i" -eq "$random_position" ]; then
-        echo "Praise the sun" > "/challenge/four/file$i.txt"
-    else
-        echo "$base_content" > "/challenge/four/file$i.txt"
-    fi
-done
-
-echo "Files created successfully."
-
-
+wget -O /challenge/random.txt https://raw.githubusercontent.com/DarkHexSage/BraWork/main/random.txt
 chmod 4777 /challenge/
 chown -R candidate:candidate /challenge/
