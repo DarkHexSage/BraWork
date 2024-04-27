@@ -120,7 +120,7 @@
                     In a directory named "<strong>/challenge/four/</strong>", multiple files with similar content reside.<br>
                     However, one file deviates slightly from the others in terms of its input.<br>
                     Detecting the outlier file and documenting its filename facilitates targeted analysis and resolution of any discrepancies within the dataset.<br>
-                    Upon identifying the file exhibiting divergent input characteristics, record its filename to "<strong>/challenge/filediff.txt</strong>".
+                    Upon identifying the file exhibiting divergent input characteristics, record its content to "<strong>/challenge/filediff.txt</strong>".
                 </li>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button><br>
 
