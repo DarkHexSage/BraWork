@@ -156,11 +156,11 @@
 
             <!-- Challenge 4 -->
             <div class="challenge-container">
-		<h3>Challenge 4: Modify Hosts File </h3>
+		<h3>Challenge 4:  Count Words in a Text File </h3>
                 <p><strong>Scenario:</strong><br>
-                     You want to add an entry to the /etc/hosts file.</p>
+                You have a large text file  /challenge/bigwords.txt containing important information, you need to know the number of words it contains..</p>
                 <p><strong>Objective:</strong><br>
-                   Modify the /etc/hosts file using Ansible in a way that this host will be recognized as "example.com" when pinging loopback</p>
+                  Using Ansible counts the number of words in it, and store  the count (number) in a file within /challenge/num.txtk</p>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
             </div>
 
