@@ -165,13 +165,20 @@ Verify that the resources are properly limited for each replica..</p>
             <div class="challenge-container">
                 <h3>Exercise 4: Services and Ingress</h3>
                 <p><strong>Scenario:</strong><br>
-                    Expose a web application via a Kubernetes Service and Ingress.</p>
+                   Configure Environment Variables using ConfigMaps</p>
                 <p><strong>Objective:</strong><br>
-                    Deploy a web application named "web-app" using an image of your choice.
-Create a ClusterIP Service named "web-service" to expose the web application internally.
-Create an Ingress resource named "web-ingress" to route traffic from the "/web" path to the "web-service".
-Configure the host for the Ingress to a domain name or IP address.
-Verify that you can access the web application through the configured Ingress route.</p>
+                    Create a ConfigMap named app-config containing environment variables for an application.
+
+Deploy a pod named app-pod redis image within the configspace namespace.
+
+Mount the ConfigMap to the pod's environment to access the configuration.
+
+Create a ConfigMap named app-config with the following key-value pairs:
+DB_HOST: db-server
+DB_PORT: 5432
+APP_ENV: production
+</p>
+
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
             </div>
 
