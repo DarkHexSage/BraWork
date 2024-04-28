@@ -5,7 +5,7 @@ function verifyPodExecution() {
     $podName = "echobox";
 
     // Define the kubectl command to retrieve pod logs
-    $logsCommand = "sudo microk8s.kubectl -n zenspace4 logs $podName";
+    $logsCommand = "sudo /snap/bin/microk8s.kubectl -n zenspace4 logs $podName";
 
     // Execute the command and capture the output
     $logsOutput = shell_exec($logsCommand);
