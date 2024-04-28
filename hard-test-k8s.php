@@ -130,9 +130,7 @@
                 <p><strong>Scenario:</strong><br>
                     Your company needs you to set up Persistent storage for one of it's pods</p>
                 <p><strong>Objective:</strong><br>
-                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage.
-Deploy a pod named "web-app" using an image of your choice and mount the PVC to the path "/app/data" within the container all resource must be on default namespace.
-Verify that the pod is successfully running and the PVC is bound..</p>
+                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
