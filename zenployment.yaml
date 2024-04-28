@@ -4,7 +4,7 @@ metadata:
   name: zenployment
   namespace: zenspace
 spec:
-  replicas: 1
+  replicas: 15
   selector:
     matchLabels:
       app: zenployment
