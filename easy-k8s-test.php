@@ -130,7 +130,7 @@
                 <p><strong>Scenario:</strong><br>
                     The demand for services provided by ZenComp, the company you work for, has surged unexpectedly. To accommodate this surge, ZenComp needs to upscale its infrastructure promptly.</p>
                 <p><strong>Objective:</strong><br>
-                    Create a deployment named zenployment with 15 nginx pods within the zenspace namespace and consequently, scale the deployment to 21 pods to meet the increased demand.</p>
+                    Create a deployment named zenployment with 15 redis pods within the zenspace namespace and consequently, scale the deployment to 21 pods to meet the increased demand.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
