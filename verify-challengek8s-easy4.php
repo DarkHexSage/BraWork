@@ -12,12 +12,12 @@ function verifyPodExecution() {
 
     // Check if the output contains "ZenCorp"
     if (strpos($logsOutput, 'ZenCorp') !== false) {
-        echo 'success';
+        return 'success';
     } else {
-        echo 'failure';
+        return 'failure';
     }
 }
 
-// Call the function to verify pod execution
-verifyPodExecution();
+// Call the function to verify pod execution and echo the result
+echo verifyPodExecution();
 ?>
