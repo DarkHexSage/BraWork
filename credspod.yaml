@@ -6,8 +6,8 @@ metadata:
 spec:
   containers:
   - name: credentials
-    image: redis
-    command: ["sh", "-c", "echo 'developer\ndevpass123' > /zencorp/creds.txt"]
+    image: alpine
+    command: ["sh", "-c", "echo 'developer\ndevpass123' > /zencorp/creds.txt && sleep 2400"] # 40 minutes (40 mins * 60 secs)
     volumeMounts:
     - name: zencorp-volume
       mountPath: /zencorp
