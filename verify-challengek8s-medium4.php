@@ -2,7 +2,7 @@
 
 function verifyNetcapodCreation() {
     // Define the kubectl command to get the pod information
-    $kubectlCommand = 'sudo microk8s.kubectl -n netprod get pod netcapod -o json';
+    $kubectlCommand = 'sudo /snap/bin/microk8s.kubectl -n netprod get pod netcapod -o json';
 
     // Execute the command and capture the output
     $output = shell_exec($kubectlCommand);
