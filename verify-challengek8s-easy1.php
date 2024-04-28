@@ -4,7 +4,7 @@ $deploymentName = "zenployment";
 $namespace = "zenspace";
 
 // Execute the kubectl command to get the deployment replicas
-$command = "sudo microk8s.kubectl get deployment $deploymentName -n $namespace -o=jsonpath='{.spec.replicas}'";
+$command = "sudo /snap/bin/microk8s.kubectl get deployment $deploymentName -n $namespace -o=jsonpath='{.spec.replicas}'";
 $output = shell_exec($command);
 
 // Check if the output contains a valid number
