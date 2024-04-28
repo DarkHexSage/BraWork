@@ -137,7 +137,7 @@
             <!-- Challenge 2 -->
             <div class="challenge-container">
                 <h3>Challenge 2: Inventory Management</h3>
-                <p><strong>Scenario:</strong><br>a
+                <p><strong>Scenario:</strong><br>
                     Due to an error by the previous administrator, the image of the deployment zenployment within the zenspace namespace was mistakenly changed to redis. It should be reverted back to nginx, as originally intended.</p>
                 <p><strong>Objective:</strong><br>
                        Correct the image of the zenployment deployment within the zenspace namespace, ensuring it uses the nginx image as specified. The deployment name is zenployment, and it resides in the zenspace namespace.</p>
