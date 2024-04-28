@@ -165,7 +165,7 @@ Redirect the pod names to the file /challenge/pods.txt on ascending order, this 
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
             </div>
 
-            <br><strong> Wishing you the best of luck on your Linux adventure!</strong>
+            <br><strong> Wishing you the best of luck on your K8s adventure!</strong>
         </div>
     </div>
 
