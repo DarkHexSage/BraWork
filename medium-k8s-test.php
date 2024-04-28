@@ -128,7 +128,7 @@
             <div class="challenge-container">
                 <h3>Challenge 1: Scaling for Increased Demand</h3>
                 <p><strong>Scenario:</strong><br>
-                    The former sysadmin at ZenCorp created a pod named credspod within the zenspaceadv namespace. However, the sysadmin can only recall that the credentials file is stored somewhere in a home directory..</p>
+                    The former sysadmin at ZenCorp created a pod named credspod within the zenspace1 namespace. However, the sysadmin can only recall that the credentials file is stored somewhere in a home directory..</p>
                 <p><strong>Objective:</strong><br>
                      Retrieve the credentials from the credspod pod and save them to a file named creds.txt in the /challenge/ directory on the Kubernetes host. The pod name is credspod, it belongs to the zenspaceadv namespace, and the image used is specified as part of the challenge.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
