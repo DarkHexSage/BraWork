@@ -160,7 +160,7 @@
             <div class="challenge-container">
                 <h3>Challenge 4: Dynamic Pod Content</h3>
                 <p><strong>Scenario:</strong><br>
-                     ZenCorp requires a pod named netcapod image alpine, with network capture (netcap) administrative capabilities within namespace netprod on its Kubernetes cluster to monitor network traffic and diagnose potential issues..</p>
+                     ZenCorp requires a pod named netcapod image alpine, with "NET_ADMIN"  capability within namespace netprod on its Kubernetes cluster to monitor network traffic and diagnose potential issues..</p>
                 <p><strong>Objective:</strong><br>
                     Deploy a pod with netcap administrative capabilities, allowing it to capture and analyze network traffic for diagnostic and troubleshooting purposes within the Kubernetes cluster. The pod should be named accordingly, reside in the appropriate namespace, and use the specified image..</p>
                 <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
