@@ -2,8 +2,8 @@
 
 function verifyRBACExercise() {
     // Define the kubectl commands to check Role and RoleBinding
-    $roleCommand = 'sudo microk8s.kubectl -n rbac-example get role pod-reader';
-    $roleBindingCommand = 'sudo microk8s.kubectl -n rbac-example get rolebinding read-pods';
+    $roleCommand = 'sudo /snap/bin/microk8s.kubectl -n rbac-example get role pod-reader';
+    $roleBindingCommand = 'sudo /snap/bin/microk8s.kubectl -n rbac-example get rolebinding read-pods';
 
     // Execute the commands and capture the output
     $roleOutput = shell_exec($roleCommand);
