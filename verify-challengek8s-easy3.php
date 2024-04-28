@@ -1,7 +1,7 @@
 <?php
 
 function verifyMultiContainerPod() {
-    $output = shell_exec('sudo microk8s.kubectl get pods -n zenspace3 multipod -o json');
+    $output = shell_exec('sudo /snap/bin/microk8s.kubectl get pods -n zenspace3 multipod -o json');
     $podInfo = json_decode($output, true);
 
     if ($podInfo && isset($podInfo['metadata']) && isset($podInfo['spec']) &&
