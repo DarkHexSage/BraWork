@@ -130,7 +130,7 @@
                 <p><strong>Scenario:</strong><br>
                     Your company needs you to set up Persistent storage for one of it's pods</p>
                 <p><strong>Objective:</strong><br>
-                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage.</p>
+                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage all resources must go within the default namespace.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
@@ -152,7 +152,7 @@ Verify that the pod is running and uses the specified Service Account..</p>
                 <p><strong>Scenario:</strong><br>
                     Enforce CPU and memory resource limitations for a deployment..</p>
                 <p><strong>Objective:</strong><br>
-                    Deploy an application named "resource-app" using an image of your choice.
+                    Deploy an application named "resource-app" using redis, all resources must go within the default namespace..
 Configure resource limits of 500m CPU and 512Mi memory for the application.
 Scale the deployment to 3 replicas.
 Verify that the resources are properly limited for each replica..</p>
@@ -165,7 +165,7 @@ Verify that the resources are properly limited for each replica..</p>
                 <p><strong>Scenario:</strong><br>
                    Configure Environment Variables using ConfigMaps</p>
                 <p><strong>Objective:</strong><br>
-                    Create a ConfigMap named app-config containing environment variables for an application.
+                    Create a ConfigMap named app-config within the default namespace containing environment variables for an application.
 
 Deploy a pod named app-pod redis image within the configspace namespace.
 
