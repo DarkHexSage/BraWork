@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: credentials
-    image: busybox
+    image: alpine
     command: ["sh", "-c", "echo 'developer\ndevpass123' > /zencorp/creds.txt"]
     volumeMounts:
     - name: zencorp-volume
