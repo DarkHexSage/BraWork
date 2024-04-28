@@ -2,7 +2,7 @@
 
 function verifyDeploymentRunningNginx($deploymentName, $namespace, $expectedImage) {
     // Define the kubectl command to describe the deployment
-    $describeCommand = "sudo microk8s.kubectl -n $namespace describe deployment $deploymentName";
+    $describeCommand = "sudo /snap/bin/microk8s.kubectl -n $namespace describe deployment $deploymentName";
 
     // Execute the command and capture the output
     $describeOutput = shell_exec($describeCommand);
