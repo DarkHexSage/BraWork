@@ -91,7 +91,7 @@
             <h1>Linux Exercises</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <ul>
-                <h4>Welcome to the Linux Testcenter Challenge: <strong>MEDIUM</strong></h4>
+                <h4>Welcome to the Linux Testcenter Challenge: <strong>MEDIUM 1</strong></h4>
                 <strong>Username:</strong> candidate <br>
                 <strong>Password:</strong> candidate123 <br>
 
