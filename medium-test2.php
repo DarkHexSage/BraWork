@@ -96,33 +96,19 @@
                 <strong>Password:</strong> candidate123 <br>
 
                 <li><strong>Challenge 1:</strong><br>
-                    An unknown file, suspected of being malicious, persists within the system at "<strong>/opt/suspiciousfile/keyTrojan</strong>".<br>
-                    This file poses a potential security risk and must be promptly removed to mitigate any potential threats to the system's integrity.<br>
-                    To ensure system security, permanently delete the suspicious file.
-                </li>
-                <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button><br><br>
-
-                <li><strong>Challenge 2:</strong><br>
-                    The server's performance has significantly degraded, resulting in sluggish responsiveness and reduced efficiency.<br>
-                    Timely identification and resolution of performance bottlenecks are imperative to maintain optimal server functionality and user experience.<br>
-                    Please check what could be hogging the performance.
-                </li>
-                <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button><br><br>
-
-                <li><strong>Challenge 3:</strong><br>
-                    A file named "<strong>/challenge/random.txt</strong>" contains an unordered sequence of random numbers.<br>
-                    Organizing these numbers in ascending order facilitates efficient data analysis and retrieval.<br>
-                    Arrange the random numbers from "<strong>/challenge/random.txt</strong>" in ascending order and redirect the sorted output to "<strong>/challenge/sortednum.txt</strong>".
-                </li>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button><br><br>
-
-                <li><strong>Challenge 4:</strong><br>
-                    In a directory named "<strong>/challenge/four/</strong>", multiple files with similar content reside.<br>
+                   In a directory named "<strong>/challenge/four/</strong>", multiple files with similar content reside.<br>
                     However, one file deviates slightly from the others in terms of its input.<br>
                     Detecting the outlier file and documenting its filename facilitates targeted analysis and resolution of any discrepancies within the dataset.<br>
                     Upon identifying the file exhibiting divergent input characteristics, record its content to "<strong>/challenge/filediff.txt</strong>".
                 </li>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button><br>
+                <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button><br><br>
+
+                <li><strong>Challenge 2:</strong><br>
+                  A file named "<strong>/challenge/random.txt</strong>" contains an unordered sequence of random numbers.<br>
+                    Organizing these numbers in ascending order facilitates efficient data analysis and retrieval.<br>
+                    Arrange the random numbers from "<strong>/challenge/random.txt</strong>" in ascending order and redirect the sorted output to "<strong>/challenge/sortednum.txt</strong>".
+                </li>
+                <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button><br><br>
 
                 <br><strong> Wishing you the best of luck on your Linux adventure!</strong>
             </ul>
