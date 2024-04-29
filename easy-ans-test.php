@@ -128,7 +128,7 @@
             <div class="challenge-container">
                 <h3>Challenge 1: Creating a File</h3>
                 <p><strong>Scenario:</strong><br>
-                    You need to create a file named hello.txt with the content "Hello, Ansible!" in the /challenge directory.</p>
+                    You need to create a file named hello.txt with the content "Hello, Ansible" in the /challenge directory.</p>
                 <p><strong>Objective:</strong><br>
                     Utilize Ansible to create the file with the specified content.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
