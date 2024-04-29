@@ -191,7 +191,7 @@
                     }
                 }
             };
-            xhr.open("GET", "/verify-challenge-easy" + challengeNumber + ".php", true);
+            xhr.open("GET", "/verify-challenge-easy2" + challengeNumber + ".php", true);
             xhr.send();
         }
 
