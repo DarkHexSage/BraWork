@@ -148,7 +148,7 @@
             <div class="challenge-container">
                 <h3>Challenge 3: Restart a service</h3>
                 <p><strong>Scenario:</strong><br>
-                   You need to restart the redis service to apply recent changes. </p>
+                   You need to restart the nginx service to apply recent changes. </p>
                 <p><strong>Objective:</strong><br>
                     Restart the redis service using Ansible.</p>
                 <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
