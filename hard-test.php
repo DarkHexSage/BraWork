@@ -120,7 +120,7 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>Linux Exercises Hard</h1>
+            <h1>Linux Exercises Hard 1</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                 <h3>Challenge 1:</h3>
