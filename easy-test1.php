@@ -91,16 +91,10 @@
             <h1>Linux Exercises</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <ul>
-                <h4>Welcome to the Linux Testcenter Challenge: EASY</h4>
+                <h4>Welcome to the Linux Testcenter Challenge: EASY 1</h4>
                 <strong>Username:</strong> candidate <br>
                 <strong>Password:</strong> candidate123 <br>
                 <strong><h3>Needle in a haystack</h3></strong>
-
-
-
-
-
-
 
      <li><strong>Challenge 1:</strong> In this challenge, your task is to find the <strong>flag</strong> hidden in a file located on directory <strong>/challenge</strong>. <br>
             Once you locate it, make sure to redir the stdout of this file to <strong>/challenge/flag1.txt.</strong></li>
@@ -109,12 +103,6 @@
         <li><strong>Challenge 2:</strong> Your objective is to locate a big file within the subdirs on <strong>/challenge</strong>. Once found compress it using just <strong>one</strong> compression algorithm. <br>
             The output file (compressed file) <strong>must be smaller than 200K</strong>, once compressed copy the file to folder  <strong> /challenge/bigfile.txt.xx being xx the compression algorithm extension</strong>.</li>
         <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button><br><br>
-
-        <li><strong>Challenge 3:</strong> Concatenate the contents of all .txt files within the <strong>/challenge/conc/</strong> directory into a single file named <strong>concatenated_files.txt</strong> save it at <strong>/challenge/</strong>.</li>
-        <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button><br><br>
-
-        <li><strong>Challenge 4:</strong> Count the number of files in folder <strong>/challenge/howmany/ </strong> write down the number digit within file <strong>/challenge/quantity.txt</strong></li>
-        <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button><br>
 
  <br>              <strong> Wishing you the best of luck on your Linux adventure!</strong>
             </ul>
