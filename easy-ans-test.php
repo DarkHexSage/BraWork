@@ -121,7 +121,7 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>Ansible Exercises Easy</h1>
+            <h1>Ansible Exercises Easy 1</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                            <!-- Challenge 1 -->
@@ -142,26 +142,6 @@
                 <p><strong>Objective:</strong><br>
 		    Use Ansible to install the nginx package.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
-            </div>
-
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-                <h3>Challenge 3: Restart a service</h3>
-                <p><strong>Scenario:</strong><br>
-                   You need to restart the nginx service to apply recent changes. </p>
-                <p><strong>Objective:</strong><br>
-                    Restart the redis service using Ansible.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-                <h3>Challenge 4: Directory creation.</h3>
-                <p><strong>Scenario:</strong><br>
-                    You need to create a directory named ansible_dir in the /challenge/ directory.</p>
-                <p><strong>Objective:</strong><br>
-                    Create the ansible_dir directory using Ansible.</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
             </div>
 
             <br><strong> Wishing you the best of luck on your Ansible adventure!</strong>
