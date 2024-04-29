@@ -109,21 +109,6 @@
                 </li>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button><br><br>
 
-                <li><strong>Challenge 3:</strong><br>
-                    A file named "<strong>/challenge/random.txt</strong>" contains an unordered sequence of random numbers.<br>
-                    Organizing these numbers in ascending order facilitates efficient data analysis and retrieval.<br>
-                    Arrange the random numbers from "<strong>/challenge/random.txt</strong>" in ascending order and redirect the sorted output to "<strong>/challenge/sortednum.txt</strong>".
-                </li>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button><br><br>
-
-                <li><strong>Challenge 4:</strong><br>
-                    In a directory named "<strong>/challenge/four/</strong>", multiple files with similar content reside.<br>
-                    However, one file deviates slightly from the others in terms of its input.<br>
-                    Detecting the outlier file and documenting its filename facilitates targeted analysis and resolution of any discrepancies within the dataset.<br>
-                    Upon identifying the file exhibiting divergent input characteristics, record its content to "<strong>/challenge/filediff.txt</strong>".
-                </li>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button><br>
-
                 <br><strong> Wishing you the best of luck on your Linux adventure!</strong>
             </ul>
         </div>
