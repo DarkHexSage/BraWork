@@ -145,29 +145,6 @@
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <div class="challenge">
-                <h3>Challenge 3:</h3>
-                <p><strong>Scenario:</strong><br>
-                    The user account named darkcandidate holds specific permissions and responsibilities within our system infrastructure. As part of routine operations, the user darkcandidate is required to perform certain tasks.</p>
-                <p><strong>Objective:</strong><br>
-                    Log in as darkcandidate and create a file named "/challenge/darkuser.txt" with the content "user is working".</p>
-                <p><strong>Context:</strong><br>
-                    The file creation verifies the functionality of user accounts and their ability to perform designated tasks securely.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <div class="challenge">
-                <h3>Challenge 4:</h3>
-                <p><strong>Scenario:</strong><br>
-                    The text file named /challenge/corrupt_tale.txt file in our system contains important data critical for our operations. Unfortunately, the file has been compromised by a virus, resulting in the appearance of the word "unwanted" within its contents. This unexpected alteration poses a risk to the integrity of the information stored in the file.</p>
-                <p><strong>Objective:</strong><br>
-                    Remove the word "unwanted" from the text file, restoring its original content and ensuring the accuracy and reliability of the information once restored save it at /challenge/fixtale.txt</p>
-                <p><strong>Context:</strong><br>
-                    The security and integrity of our data are paramount, and swift action is necessary to mitigate any potential risks
-
- posed by malicious entities.</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
 
             <br><strong> Wishing you the best of luck on your Linux adventure!</strong>
         </div>
