@@ -121,12 +121,12 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>K8s Exercises Easy</h1>
+            <h1>K8s Exercises Easy 2</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                            <!-- Challenge 1 -->
             <div class="challenge-container">
-                <h3>Challenge 1:Challenge 4: Dynamic Pod Content</h3>
+                <h3>Challenge 1: Dynamic Pod Content</h3>
               <p><strong>Scenario:</strong><br>
                     ZenComp seeks to dynamically generate content within its Kubernetes cluster to facilitate various operational tasks.</p>
                 <p><strong>Objective:</strong><br>
