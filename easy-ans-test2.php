@@ -138,9 +138,9 @@
             <div class="challenge-container">
                 <h3>Challenge 2: Service Restart</h3>
                     <p><strong>Scenario:</strong><br>
-                   You need to restart the nginx service to apply recent changes. </p>
+                   You need to restart the cron service to apply recent changes. </p>
                 <p><strong>Objective:</strong><br>
-                    Restart the nginx service using Ansible.</p>
+                    Restart the cron service using Ansible.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
