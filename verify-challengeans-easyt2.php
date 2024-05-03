@@ -5,7 +5,7 @@ function verifyRedisRestart() {
     $initialTimestamp = shell_exec("sudo systemctl show -p ActiveEnterTimestamp nginx | awk -F '=' '{print $2}' 2>&1");
 
     // Execute command to restart Redis service
-    shell_exec("sudo systemctl restart redis");
+    shell_exec("sudo systemctl restart nginx");
 
     // Get timestamp of Redis service restart after the operation
     $finalTimestamp = shell_exec("sudo systemctl show -p ActiveEnterTimestamp nginx | awk -F '=' '{print $2}' 2>&1");
