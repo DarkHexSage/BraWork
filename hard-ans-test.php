@@ -144,26 +144,6 @@
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-		<h3>Challenge 3:  Create a Group</h3>
-                <p><strong>Scenario:</strong><br>
-		You want to create a new group named webadmins on the target machine.</p>
-                <p><strong>Objective:</strong><br>
-                   Create a new group named webadmins using Ansible.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-		<h3>Challenge 4:  Count Words in a Text File </h3>
-                <p><strong>Scenario:</strong><br>
-                You have a text file  /challenge/words.txt containing important information, you need to know the number of words it contains..</p>
-                <p><strong>Objective:</strong><br>
-                  Using Ansible counts the number of words in it, and store  the count (number) in a file within /challenge/num.txt</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
-
             <br><strong> Wishing you the best of luck on your Ansible adventure!</strong>
         </div>
     </div>
