@@ -140,7 +140,7 @@
                     <p><strong>Scenario:</strong><br>
                    You need to restart the nginx service to apply recent changes. </p>
                 <p><strong>Objective:</strong><br>
-                    Restart the redis service using Ansible.</p>
+                    Restart the nginx service using Ansible.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
