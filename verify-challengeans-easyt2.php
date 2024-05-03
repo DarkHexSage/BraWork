@@ -19,6 +19,6 @@ function verifynginxRestart() {
 }
 
 // Example usage:
-echo verifyRedisRestart();
+echo verifynginxRestart();
 
 ?>
