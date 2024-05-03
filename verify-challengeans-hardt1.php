@@ -1,10 +1,8 @@
-<?php
-function verifyGroupExistence() {
-    // Read the contents of the /etc/group file
-    $groupFileContent = file_get_contents('/etc/group');
 
-    // Check if the 'webadmins' group exists in the file
-    if (strpos($groupFileContent, 'webadmins:') !== false) {
+<?php
+
+function verifyAnsibleDir() {
+    if (is_dir('/challenge/ansible_dir')) {
         return 'success';
     } else {
         return 'failure';
@@ -12,6 +10,5 @@ function verifyGroupExistence() {
 }
 
 // Example usage:
-echo verifyGroupExistence();
+echo verifyAnsibleDir();
 ?>
-
