@@ -144,26 +144,6 @@
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-                <h3>Challenge 3: Modify a file:</h3>
-                <p><strong>Scenario:</strong><br>
-	You have a file named /challenge/config.txt</p>
-                <p><strong>Objective:</strong><br>
-                    Append the line Setting=Value to the file config.txt using Ansible.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-                <h3>Challenge 4: Install a Python Package </h3>
-                <p><strong>Scenario:</strong><br>
-                     You need to install the flask Python package using pip.</p>
-                <p><strong>Objective:</strong><br>
-                   Install the flask Python package using Ansible.</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
-
             <br><strong> Wishing you the best of luck on your Ansible adventure!</strong>
         </div>
     </div>
