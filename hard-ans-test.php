@@ -128,7 +128,7 @@
             <div class="challenge-container">
                 <h3>Challenge 1: Configure TimeZone</h3>
                 <p><strong>Scenario:</strong><br>
-                    You want to set the system timezone to UTC.</p>
+                    You want to set the system timezone to "Asia/Tokyo".</p>
                 <p><strong>Objective:</strong><br>
                     Configure the system timezone using Ansible.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
