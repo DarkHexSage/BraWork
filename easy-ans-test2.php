@@ -136,7 +136,7 @@
 
             <!-- Challenge 2 -->
             <div class="challenge-container">
-                <h3>Challenge 2: Install a Package</h3>
+                <h3>Challenge 2: Service Restart</h3>
                     <p><strong>Scenario:</strong><br>
                    You need to restart the nginx service to apply recent changes. </p>
                 <p><strong>Objective:</strong><br>
