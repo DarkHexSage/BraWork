@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod 777 /challenge/
 # Get the current value of $DOCKER_HOST_IP
 DOCKER_HOST_IP=$(hostname -I | cut -d ' ' -f 1)
 
