@@ -1,14 +1,13 @@
-
 <?php
-
-function verifyAnsibleDir() {
-    if (is_dir('/challenge/ansible_dir')) {
+function verifyGroupCreation() {
+    $groupName = 'webadmins';
+    exec("getent group $groupName", $output, $returnCode);
+    if ($returnCode === 0) {
         return 'success';
-    } else {
-        return 'failure';
     }
+    return 'failure';
 }
 
 // Example usage:
-echo verifyAnsibleDir();
+echo verifyGroupCreation();
 ?>
