@@ -1,17 +1,17 @@
 <?php
 
-function verifyRedisRestart() {
-    // Get timestamp of Redis service restart before the operation
-    $initialTimestamp = shell_exec("sudo systemctl show -p ActiveEnterTimestamp nginx | awk -F '=' '{print $2}' 2>&1");
+function verifynginxRestart() {
+    // Get the process ID (PID) of the Redis service before the operation
+    $initialPID = trim(shell_exec("pgrep cron"));
 
-    // Execute command to restart Redis service
-    shell_exec("sudo systemctl restart nginx");
+    // Execute command to restart the Redis service
+    shell_exec("sudo service cron restart");
 
-    // Get timestamp of Redis service restart after the operation
-    $finalTimestamp = shell_exec("sudo systemctl show -p ActiveEnterTimestamp nginx | awk -F '=' '{print $2}' 2>&1");
+    // Get the process ID (PID) of the Redis service after the operation
+    $finalPID = trim(shell_exec("pgrep cron"));
 
-    // Check if timestamps are different to confirm restart
-    if (trim($initialTimestamp) !== trim($finalTimestamp)) {
+    // Check if the process IDs are different to confirm restart
+    if ($initialPID !== $finalPID) {
         return 'success';
     } else {
         return 'failure';
