@@ -126,7 +126,7 @@
             <div class="challenge">
                            <!-- Challenge 1 -->
             <div class="challenge-container">
-                <h3>Exercise 1: Services and Ingress</h3>
+                <h3>Exercise 1: Configmap Pod</h3>
                 <p><strong>Scenario:</strong><br>
                    Configure Environment Variables using ConfigMaps</p>
                 <p><strong>Objective:</strong><br>
