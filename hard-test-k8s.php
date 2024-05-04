@@ -121,7 +121,7 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>K8s Exercises Hard</h1>
+            <h1>K8s Exercises Hard 1</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                            <!-- Challenge 1 -->
