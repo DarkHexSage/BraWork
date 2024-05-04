@@ -121,7 +121,7 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>K8s Exercises Easy</h1>
+            <h1>K8s Exercises Easy 1</h1>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                            <!-- Challenge 1 -->
@@ -145,25 +145,7 @@ Redirect the pod names to the file /challenge/pods.txt on ascending order, this 
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-                <h3>Challenge 3: Multi-Container Pod Deployment</h3>
-                <p><strong>Scenario:</strong><br>
-                    ZenComp is exploring the implementation of multi-container pods to optimize resource utilization and enhance application performance.</p>
-                <p><strong>Objective:</strong><br>
-                    Create a pod named "multipod" inside namespace zenspace3 with two containers: one running Nginx and the other running Alpine Linux. Both containers should operate within the same pod for efficient resource sharing.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
 
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-                <h3>Challenge 4: Dynamic Pod Content</h3>
-                <p><strong>Scenario:</strong><br>
-                    ZenComp seeks to dynamically generate content within its Kubernetes cluster to facilitate various operational tasks.</p>
-                <p><strong>Objective:</strong><br>
-                    Execute a pod with name echobox with image alpine within zenspace4 that runs a command to echo "ZenCorp" to the standard output, providing a dynamic and responsive platform for operational activities.</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
 
             <br><strong> Wishing you the best of luck on your K8s adventure!</strong>
         </div>
