@@ -148,39 +148,7 @@ Verify that the pod is running and uses the specified Service Account..</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-                <h3>Exercise 3: Resource Limitation</h3>
-                <p><strong>Scenario:</strong><br>
-                    Enforce CPU and memory resource limitations for a deployment..</p>
-                <p><strong>Objective:</strong><br>
-                    Deploy an application named "resource-app" using redis, all resources must go within the default namespace..
-Configure resource limits of 500m CPU and 512Mi memory for the application.
-Scale the deployment to 3 replicas.
-Verify that the resources are properly limited for each replica..</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-                <h3>Exercise 4: Services and Ingress</h3>
-                <p><strong>Scenario:</strong><br>
-                   Configure Environment Variables using ConfigMaps</p>
-                <p><strong>Objective:</strong><br>
-                    Create a ConfigMap named app-config within the default namespace containing environment variables for an application.
-
-Deploy a pod named app-pod redis image within the configspace namespace.
-
-Mount the ConfigMap to the pod's environment to access the configuration.
-
-Create a ConfigMap named app-config with the following key-value pairs:
-DB_HOST: db-server
-DB_PORT: 5432
-APP_ENV: production
-</p>
-
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
+        
 
             <br><strong> Wishing you the best of luck on your K8s adventure!</strong>
         </div>
