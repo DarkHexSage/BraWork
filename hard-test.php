@@ -123,7 +123,6 @@
             <h1>Linux Exercises Hard 1</h1>
                 <strong>Username:</strong> candidate <br>
                 <strong>Password:</strong> candidate123 <br>
-                <strong><h3>Needle in a haystack</h3></strong>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                 <h3>Challenge 1:</h3>
