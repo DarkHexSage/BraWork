@@ -148,7 +148,7 @@ APP_ENV: production
 
             <!-- Challenge 2 -->
             <div class="challenge-container">
-                             <h3>Exercise 3: Resource Limitation</h3>
+                             <h3>Exercise 2: Resource Limitation</h3>
                 <p><strong>Scenario:</strong><br>
                     Enforce CPU and memory resource limitations for a deployment..</p>
                 <p><strong>Objective:</strong><br>
