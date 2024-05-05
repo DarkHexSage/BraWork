@@ -138,7 +138,7 @@
 
             <!-- Challenge 2 -->
             <div class="challenge-container">
-                <h3>Challenge 2: RBAC Provisioningt</h3>
+                <h3>Challenge 2: RBAC Provisioning</h3>
                 <p><strong>Scenario: ZenCorp needs to define user roles and permissions within its Kubernetes cluster to manage access to resources effectively.
 
 </strong><br>
