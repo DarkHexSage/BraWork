@@ -124,7 +124,6 @@
             <h1>K8s Exercises Easy 2</h1>
                 <strong>Username:</strong> candidate <br>
                 <strong>Password:</strong> candidate123 <br>
-                <strong><h3>Needle in a haystack</h3></strong>
             <div id="timer">30:00</div> <!-- Timer added here -->
             <div class="challenge">
                            <!-- Challenge 1 -->
