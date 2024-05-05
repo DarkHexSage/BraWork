@@ -146,27 +146,6 @@
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
-            <!-- Challenge 3 -->
-            <div class="challenge-container">
-                <h3>Challenge 3: RBAC Provisioning </h3>
-                <p><strong>Scenario: ZenCorp needs to define user roles and permissions within its Kubernetes cluster to manage access to resources effectively.
-
-</strong><br>
-                    </p>
-                <p><strong>Objective:</strong><br>
-                    In this exercise, create a new namespace named "rbac-example", define a Role titled "pod-reader" enabling users to list and read Pods within the namespace, and establish a RoleBinding named "read-pods" associating the "pod-reader" Role with the default ServiceAccount.</p>
-                <button id="challenge3Button" class="challenge-button" onclick="verifyChallenge(3)">Verify Challenge 3</button>
-            </div>
-
-            <!-- Challenge 4 -->
-            <div class="challenge-container">
-                <h3>Challenge 4: Dynamic Pod Content</h3>
-                <p><strong>Scenario:</strong><br>
-                     ZenCorp requires a pod named netcapod image alpine, with "NET_ADMIN"  capability within namespace netprod on its Kubernetes cluster to monitor network traffic and diagnose potential issues..</p>
-                <p><strong>Objective:</strong><br>
-                    Deploy a pod with netcap administrative capabilities, allowing it to capture and analyze network traffic for diagnostic and troubleshooting purposes within the Kubernetes cluster. The pod should be named accordingly, reside in the appropriate namespace, and use the specified image..</p>
-                <button id="challenge4Button" class="challenge-button" onclick="verifyChallenge(4)">Verify Challenge 4</button>
-            </div>
 
             <br><strong> Wishing you the best of luck on your Kubernetes adventure!</strong>
         </div>
