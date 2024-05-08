@@ -142,7 +142,7 @@
                    <p><strong>Scenario:</strong><br>
                     ZenComp is exploring the implementation of multi-container pods to optimize resource utilization and enhance application performance.</p>
                 <p><strong>Objective:</strong><br>
-                    Create a pod named "multipod" inside namespace zenspace3 with two containers: one running Nginx and the other running Alpine Linux. Both containers should operate within the same pod for efficient resource sharing.</p>
+                    Create a pod named "multipod" inside namespace zenspace3 with two containers: one running Nginx with container name nginx-container and the other running Alpine Linux container name alpine-container. Both containers should operate within the same pod for efficient resource sharing.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
