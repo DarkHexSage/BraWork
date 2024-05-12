@@ -2,6 +2,7 @@
 chown -R www-data:www-data /challenge/
 chown -R www-data:www-data /hidden/
 chmod 700 /challenge/
+chmod 700 /hidden/
 # Get the current value of $DOCKER_HOST_IP
 DOCKER_HOST_IP=$(curl ipinfo.io/ip)
 # Replace occurrences of the IP address with $DOCKER_HOST_IP
