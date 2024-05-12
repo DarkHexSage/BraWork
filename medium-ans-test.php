@@ -121,7 +121,7 @@
 
         <!-- Exercises -->
         <div id="exercises-container">
-            <h1>Ansible Exercises Medium</h1>
+            <h1>Ansible Exercises Medium 1</h1>
 		<strong>Username:</strong> candidate <br>
                 <strong>Password:</strong> candidate123 <br>
             <div id="timer">30:00</div> <!-- Timer added here -->
