@@ -73,7 +73,7 @@ done
 
 echo "Directory and files created successfully."
 
-chmod 4777 /challenge/
+chmod 777 /challenge/
 chown -R candidate:candidate /challenge/
 
 
