@@ -1,5 +1,5 @@
 #!/bin/bash
-chown -R root:root /challenge/
+chown -R www-data:www-data /challenge/
 chmod 700 /challenge/
 # Get the current value of $DOCKER_HOST_IP
 DOCKER_HOST_IP=$(curl ipinfo.io/ip)
