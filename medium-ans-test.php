@@ -140,7 +140,7 @@
             <div class="challenge-container">
                 <h3>Challenge 2: Copy a File</h3>
                 <p><strong>Scenario:</strong><br>
-		    You have a file named sample.txt on your local machine that you need to copy to the /challenge directory.</p>
+		    You have a file named sample.txt on /business/ that you need to copy to the /challenge directory.</p>
                 <p><strong>Objective:</strong><br>
 		    Use Ansible to copy the sample.txt file to /challenge dir.</p>
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
