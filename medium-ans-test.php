@@ -130,7 +130,7 @@
             <div class="challenge-container">
                 <h3>Challenge 1: Create a user</h3>
                 <p><strong>Scenario:</strong><br>
-                    You are setting up a new user environment and need to create a user named ansibleuser with a specific home directory.</p>
+                    You are setting up a new user environment and need to create a user named ansibleuser with home directory /home/ansibleuser</p>
                 <p><strong>Objective:</strong><br>
                     Create the ansibleuser with the specified home directory using Ansible.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
