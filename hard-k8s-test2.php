@@ -132,16 +132,16 @@
                 <p><strong>Scenario:</strong><br>
                    Configure Environment Variables using ConfigMaps</p>
                 <p><strong>Objective:</strong><br>
-                    Create a ConfigMap named app-config within the default namespace containing environment variables for an application.
+                    Create a ConfigMap named app-config within the default namespace containing environment variables for an application.<br>
 
-Deploy a pod named app-pod redis image within the configspace namespace.
+Deploy a pod named app-pod redis image within the configspace namespace.<br>
 
 Mount the ConfigMap to the pod's environment to access the configuration.
 
-Create a ConfigMap named app-config with the following key-value pairs:
-DB_HOST: db-server
-DB_PORT: 5432
-APP_ENV: production
+Create a ConfigMap named app-config with the following key-value pairs:<br>
+DB_HOST: db-server<br>
+DB_PORT: 5432<br>
+APP_ENV: production<br>
 </p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
