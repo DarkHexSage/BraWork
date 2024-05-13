@@ -128,7 +128,7 @@
             <div class="challenge">
                            <!-- Challenge 1 -->
             <div class="challenge-container">
-                <h3>Challenge 1: Scaling for Increased Demand</h3>
+                <h3>Challenge 1: Credential Retrieval</h3>
                 <p><strong>Scenario:</strong><br>
                     The former sysadmin at ZenCorp created a pod named credspod within the zenspace1 namespace. However, the sysadmin can only recall that the credentials file is stored somewhere in a home directory..</p>
                 <p><strong>Objective:</strong><br>
