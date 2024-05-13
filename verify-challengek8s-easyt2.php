@@ -7,20 +7,21 @@ function verifyMultiContainerPod() {
     if ($podInfo && isset($podInfo['metadata']) && isset($podInfo['spec']) &&
         isset($podInfo['spec']['containers']) && count($podInfo['spec']['containers']) === 2) {
         // Pod exists and has two containers
-        $nginxFound = false;
-        $alpineFound = false;
+        $containerNames = [];
+        $containerImages = [];
+        
+        // Extract container names and images
         foreach ($podInfo['spec']['containers'] as $container) {
-            if ($container['name'] === 'nginx-container' && $container['image'] === 'nginx') {
-                // Nginx container found
-                $nginxFound = true;
-            }
-            if ($container['name'] === 'alpine-container' && $container['image'] === 'alpine') {
-                // Alpine Linux container found
-                $alpineFound = true;
-            }
+            $containerNames[] = $container['name'];
+            $containerImages[] = $container['image'];
         }
-        if ($nginxFound && $alpineFound) {
-            return "success";
+        
+        // Check if both nginx and alpine containers exist
+        if (in_array('nginx-container', $containerNames) && in_array('alpine-container', $containerNames)) {
+            // Check if both nginx and alpine images exist
+            if (in_array('nginx', $containerImages) && in_array('alpine', $containerImages)) {
+                return "success";
+            }
         }
     }
     return "failure";
