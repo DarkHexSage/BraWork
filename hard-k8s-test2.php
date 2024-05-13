@@ -152,7 +152,7 @@
                 <p><strong>Scenario:</strong><br>
                     Enforce CPU and memory resource limitations for a deployment..</p>
                 <p><strong>Objective:</strong><br>
-                    Deploy an application named "resource-app" using redis, all resources must go within the default namespace..
+                    Deploy a deployment named "resource-app" using redis, all resources must go within the default namespace..
 Configure resource limits of 500m CPU and 512Mi memory for the application.
 Scale the deployment to 3 replicas.
 Verify that the resources are properly limited for each replica..</p>
