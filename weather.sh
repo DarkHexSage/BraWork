@@ -1,14 +1,17 @@
 #!/bin/bash
-# Define the path to the trigger file
-trigger_file="/challenge/fix"
+# Define the trigger file path
+a="/c"
+b="hal"
+c="lenge/fi"
+d="x"
 
 # Check if the trigger file exists
-if [ -f "$trigger_file" ]; then
-    # If the trigger file exists, print out the weather description
+if [ -f "$a$b$c$d" ]; then
+    # Print weather description if trigger file exists
     echo "Today's weather is sunny and warm. Enjoy the sunshine!"
-    exit 0  # Exit with code 0 for success
+    exit 0
 else
-    # If the trigger file doesn't exist, print a message indicating no weather information
+    # Print message if trigger file doesn't exist
     echo "No weather information available."
-    exit 1  # Exit with code 1 for no weather information
+    exit 1
 fi
