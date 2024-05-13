@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,7 +132,7 @@
                 <p><strong>Scenario:</strong><br>
                     Your company needs you to set up Persistent storage for one of it's pods</p>
                 <p><strong>Objective:</strong><br>
-                    Create a PVC named "app-data-pvc" with a storage class of your choice, requesting 1Gi of storage all resources must go within the default namespace.</p>
+                    Create a PVC named "app-data-pvc" with default storage class, requesting 1Gi of storage all resources must go within the default namespace.</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
