@@ -142,8 +142,11 @@
                     Our organization is proactively enhancing network security by analyzing HTTP traffic within our network environment. The primary goal of this initiative is to identify instances of sensitive information, particularly usernames and passwords, being transmitted in clear text over HTTP protocols.</p>
                 <p><strong>Instructions:</strong><br>
                     Please analyze the provided pcap file located at "/challenge/networkhhtp.pcap". Your task is to extract all usernames and passwords found within the HTTP traffic. Once identified, please store each username-password pair in separate text files using the following format:</p>
-                <p>Username:Password</p>
+                <p>username:password</p>
                 <p>For instance, if the username is "john" and the password is "password", they should be stored in a file named /challenge/creds1.txt. Similarly, if the username is "goblin" and the password is "solaire12", they should be stored in a file named /challenge/creds2.txt, and so forth.</p>
+                creds1.txt shall container creds from referer: http://sct.gob.mx/login/
+                creds2.txt shall container creds from referer: http://testphp.vulnweb.com/login.php
+                creds3.txt shall container creds from referer: http://dsoluciones.com.ar/sistema/login.php
                 <button id="challenge2Button" class="challenge-button" onclick="verifyChallenge(2)">Verify Challenge 2</button>
             </div>
 
