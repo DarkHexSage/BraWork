@@ -39,19 +39,22 @@ directory="/challenge/four/"
 # Create directory if it doesn't exist
 mkdir -p "$directory"
 
+#!/bin/bash
+
 # Loop to create 30 files
 for ((i=1; i<=30; i++))
 do
-    # Determine content based on even or odd index
-    if ((i % 2 == 0)); then
-        content="Praise the moon"
-    else
-        content="Praise the sun"
-    fi
+    # Determine content
+    content="Praise the moon"
 
     # Create the file with the determined content
     echo "$content" > "${directory}file$i.txt"
 done
+
+# Overwrite one random file with "Praise the sun"
+random_file=$(shuf -i 1-30 -n 1)
+echo "Praise the sun" > "${directory}file$random_file.txt"
+
 
 
 wget -O /challenge/random.txt https://raw.githubusercontent.com/DarkHexSage/BraWork/main/random.txt
