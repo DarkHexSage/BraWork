@@ -11,4 +11,5 @@ chown -R candidate:candidate /challenge/
 chown -R www-data:www-data /var/www/html/
 chmod 711 /var/www/html/
 chmod 777 /opt/
-chown candidate:candidate /opt/weatherapp/weather
+chmod 777 /opt/weatherapp/weather.sh
+chown candidate:candidate /opt/weatherapp/weather.sh
