@@ -134,7 +134,7 @@
                 <p><strong>Objective:</strong><br>
                     Create a ConfigMap named app-config within the default namespace containing environment variables for an application.<br>
 
-<br>Deploy a pod named app-pod redis image within the configspace namespace.<br>
+<br>Deploy a pod named app-pod redis image within the default namespace.<br>
 
 <br>Mount the ConfigMap to the pod's environment to access the configuration.<br>
 
