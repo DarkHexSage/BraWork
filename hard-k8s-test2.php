@@ -134,14 +134,14 @@
                 <p><strong>Objective:</strong><br>
                     Create a ConfigMap named app-config within the default namespace containing environment variables for an application.<br>
 
-Deploy a pod named app-pod redis image within the configspace namespace.<br>
+<br>Deploy a pod named app-pod redis image within the configspace namespace.<br>
 
-Mount the ConfigMap to the pod's environment to access the configuration.
+<br>Mount the ConfigMap to the pod's environment to access the configuration.<br>
 
-Create a ConfigMap named app-config with the following key-value pairs:<br>
-DB_HOST: db-server<br>
-DB_PORT: 5432<br>
-APP_ENV: production<br>
+<br> Create a ConfigMap named app-config with the following key-value pairs:<br>
+<strong>DB_HOST:</strong> db-server<br>
+<strong>DB_PORT:</strong> 5432<br>
+<strong>APP_ENV:</strong> production<br>
 </p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
