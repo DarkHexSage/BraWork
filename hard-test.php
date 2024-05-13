@@ -131,7 +131,7 @@
                 <p><strong>Objective:</strong><br>
                     Investigate with strace and rectify the issue with the weather application.</p>
                 <p><strong>Context:</strong><br>
-                    The weather script file is located at "<strong>/opt/weatherapp/weather.sh/strong>".</p>
+                    The weather script file is located at "<strong>/opt/weatherapp/weather.sh </strong>".</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
