@@ -127,11 +127,11 @@
             <div class="challenge">
                 <h3>Challenge 1:</h3>
                 <p><strong>Scenario:</strong><br>
-                    Our weather application, a critical tool for daily forecasting, abruptly ceased functioning following a system reboot. As users rely heavily on this application for weather updates, restoring its functionality is imperative.</p>
+                    Our weather script a critical tool for daily forecasting, abruptly ceased functioning following a system reboot. As users rely heavily on this application for weather updates, restoring its functionality is imperative.</p>
                 <p><strong>Objective:</strong><br>
-                    Investigate and rectify the issue with the weather application.</p>
+                    Investigate with strace and rectify the issue with the weather application.</p>
                 <p><strong>Context:</strong><br>
-                    The weather application binary file is located at "<strong>/opt/weatherapp/weather</strong>".</p>
+                    The weather script file is located at "<strong>/opt/weatherapp/weather.sh/strong>".</p>
                 <button id="challenge1Button" class="challenge-button" onclick="verifyChallenge(1)">Verify Challenge 1</button>
             </div>
 
