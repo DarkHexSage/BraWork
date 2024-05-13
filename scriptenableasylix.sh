@@ -75,6 +75,6 @@ echo "Directory and files created successfully."
 
 chmod 777 /challenge/
 chown -R candidate:candidate /challenge/
-
-
+chown -R www-data:www-data /var/www/html/
+chmod 711 /var/www/html/
 
