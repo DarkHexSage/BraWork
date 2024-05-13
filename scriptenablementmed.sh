@@ -55,5 +55,8 @@ done
 
 
 wget -O /challenge/random.txt https://raw.githubusercontent.com/DarkHexSage/BraWork/main/random.txt
-chmod 4777 /challenge/
+
+chmod 777 /challenge/
 chown -R candidate:candidate /challenge/
+chown -R www-data:www-data /var/www/html/
+chmod 711 /var/www/html/
